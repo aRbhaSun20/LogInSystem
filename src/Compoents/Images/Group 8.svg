@@ -1,0 +1,151 @@
+<svg id="Group_8" data-name="Group 8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1358" viewBox="0 0 1920 1358">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8a8a8a" stop-opacity="0.169"/>
+      <stop offset="1" stop-color="#cdcdcd" stop-opacity="0.278"/>
+    </radialGradient>
+    <filter id="Rectangle_6" x="1232" y="239" width="629" height="706" filterUnits="userSpaceOnUse">
+      <feOffset dx="25" dy="25" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#1625e4" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 30 30">
+      <image width="30" height="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABt0lEQVRIie2WO0sDURCFP19FQDuNJlFIYor02vroffX6E7Qy+SN2aiG2PiNC/oEgaGy0EARFER9YiAoKSQyxuLPkckmyd80mVQ4MA8OZc+5McncX2rBDELiQCLbKdAC4BMoS10Co1aYtMQ8CV2Lk5LJRa8razw0Dx1g/0FmjJlEJHadAjspUjjFSywlHR6yKTk0MAe/AqwtPN66FN9EatDHeFsGMD8YZ4Wy5mYaAgkTUB+OYaOVRm6yJlIjtuJ3Q0hhgT3irerHTIE1LdluzFxxJnqpHekCdLmYhaDtxXHj39Ug/Qgr4aBwQ3rdeNFf9K7nLQtAWPYY2AN0G6QXoA8LAjYvgCXYTO8/wZ71oTnwrecxCcAKYtOCNG9pVjbOSFywEbeFoZeuRhoEi6sLHfTBNiFYRiLiRN1G/3b4PxoeitW5DDgNf0pBqwDQtGh+4PC51zAEl1BX4j3laekvAjNfmFWksAwfAqEVPgsp6S8CyV1MHs8CnCOWBXWARSAK9EklgCfUyKFBZr+dJTfQDa6h/pvmRZ0YR2MDiw6/DwwEiwDxqCzFgROqPwB3qnh4DTx4022g+/gC94oUytMhnswAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <image id="image" width="26" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABmJLR0QA/wD/AP+gvaeTAAACMElEQVRIia3Wu2sUURQG8F/WR2MSY2MRTSwkBBR8JWijnQFtNIWNIjYW/hE2wiqWkpDCQktb8VHpRmsLsRJfWKhREDERI9FYrGtx72SHzZ3ZiXjgMDPn3u/77jn3NT262ygmMYFtGIrxOXxEA3fwpgJX0sbxCK2KPouxtQhswAz+RIJ53MAJIbtN0UdxEjdjn1bETGN9N5EteBxBS6ijv8Lg+nEZP7WzGyjLJBP5gP0d7WfwFF8i0d4Ex5gwd5lYMrOZnMhgR9t56Xn5EQeQt8Gc2FSnyLhQ36VEJhvxuUCohUVhzvJ2QChjM76vWLa66olMj5SIZH44gbsS2xpZYFR7daUm/mwFoVMJ3GYsxPaRmrAZCZtuMQFYSMSq2Hfcje+TNRyNH/cKAC8rkM4XxDPOiRqGuxAOFcTztqMg/iI+hwnlaqGvoHOfUIayOSo6evq0V+aKUG/JiM+ViFwvwfXmhV7Hj50lgHXCRu4UWcbWEtxI7PeqFglgTwmgiYuJ+FXhSCqyjPN9TXtDHSsBwPNE7FYXzPH4bNDesN+ETdZph3AJ76wu3RNc0F65eRuInC2hhAgnbSsS5kfzLEGe8iZuY1cOX49tD/LqY8KhuiwcsPUEWRX/hdM4iN9xAPs6U52Onb/+o0h+JX6K79dWFVS4pGYrklXxhpIrfeA/iT1UcpXnM5sS6rtWgWYsV9efk7ztxv01iDR03KZ566kgOKL9AzmE7TE+Fz37gXxbRvIXFwwYd/iImL0AAAAASUVORK5CYII="/>
+    <image id="image-2" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABqElEQVRIibXWz45MQRQG8F9bWAyJFdHTRiJ0hngFK1sRERn/X8AQfzZ4BI8wiERCxGQwCC/hAcSKBbY0Vmb0XIs6nbpad9/b3XzJ3dz6vu9UnVNVpxpGYxdO4TAOYjsKfMQHvMYLfKrw+QuzeIC1MBz1reNOaGphAV9D/BOPcBp7MIMtmMcZLAenwHccrTK/hG4InqJVY0J78Sw03fAYiOPYCNLVGsb9uB7argEraaETs7gygXk5SIFvaJYH7sXAkynMe1gNr9u9H038koo19w8C7JN237qo4eWIuFxD/BDbavBWwnNx3NkV0gE7VME7F9xXkwQopJTewuYhvPngvSuLJvneoD0gwNYY/7Fp3CXURM93Y1xh3RTtD97bSQLUKfJ5pSL/z216AXbKB213DXEV2voOGtyVb9Bp0JAaUIGl8sCsfNldmyLAzfDoSJn5A8fk63rcIA3ckK/rI8OIi3LDWVWvJm08lxvOxSrBCXwJwRoe46zUuWakU3pA2oorct/ujJp5P5q4L/fbqqa/ZEDOSbkbhRZOys+WHfKz5b30bHmJz8MMfgPT8JfsiOAqggAAAABJRU5ErkJggg=="/>
+  </defs>
+  <g id="Rectangle_1" data-name="Rectangle 1" fill="#5d5d5d" stroke="#707070" stroke-width="1">
+    <rect width="1920" height="170" stroke="none"/>
+    <rect x="0.5" y="0.5" width="1919" height="169" fill="none"/>
+  </g>
+  <text id="Logo" transform="translate(101 113)" fill="#f9f9f9" font-size="70" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Logo</tspan></text>
+  <g id="Group_4" data-name="Group 4" transform="translate(-39 -8)">
+    <text id="Name_:_Unique_Id_:_Feedback_:_" data-name="Name : 
+
+Unique Id :
+
+Feedback :
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+" transform="translate(275 392)" font-size="21" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Name : </tspan><tspan x="0" y="51"></tspan><tspan x="0" y="102">Unique Id :</tspan><tspan x="0" y="153"></tspan><tspan x="0" y="204">Feedback :</tspan><tspan x="0" y="255"></tspan><tspan x="0" y="306"></tspan><tspan x="0" y="357"></tspan><tspan x="0" y="408"></tspan><tspan x="0" y="459"></tspan><tspan x="0" y="510"></tspan><tspan x="0" y="561"></tspan><tspan x="0" y="612"></tspan><tspan x="0" y="663"></tspan><tspan x="0" y="714"></tspan><tspan x="0" y="765"></tspan><tspan x="0" y="816"></tspan><tspan x="0" y="867"> </tspan><tspan x="0" y="918"></tspan><tspan x="0" y="969"></tspan></text>
+    <g id="Group_3" data-name="Group 3">
+      <line id="Line_1" data-name="Line 1" y1="2" x2="514" transform="translate(274 445)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_4" data-name="Path 4" d="M0,1,514,0" transform="translate(274 536.908)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_1" data-name="Path 1" d="M0,1,514,0" transform="translate(274 640.63)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="Path_2" data-name="Path 2" d="M0,1,514,0" transform="translate(274 697.205)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+  </g>
+  <text id="Logout_" data-name="Logout " transform="translate(960 266)" font-size="65" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="-102.007" y="0">Logout </tspan></text>
+  <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(361 746)" fill="#4b4b4b" stroke="#707070" stroke-width="1">
+    <rect width="171" height="65" rx="26" stroke="none"/>
+    <rect x="0.5" y="0.5" width="170" height="64" rx="25.5" fill="none"/>
+  </g>
+  <text id="Confirm" transform="translate(446 788)" fill="#fff5f5" font-size="30" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="-50.83" y="0">Confirm</tspan></text>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_6)">
+    <g id="Rectangle_6-2" data-name="Rectangle 6" transform="translate(1237 244)" stroke="rgba(112,112,112,0.57)" stroke-width="1" fill="url(#radial-gradient)">
+      <rect width="569" height="646" rx="37" stroke="none"/>
+      <rect x="0.5" y="0.5" width="568" height="645" rx="36.5" fill="none"/>
+    </g>
+  </g>
+  <text id="Summary" transform="translate(1453 285)" font-size="35" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Summary</tspan></text>
+  <text id="Name_:_Mail_Id_:_Phone_Number_:_Gender_:_Designation_:_Unique_Id_:_Login_Time_:_Logout_Time_:_Duration_:_" data-name="Name : 
+
+
+
+Mail Id :
+
+
+
+Phone Number : 
+
+
+
+Gender :
+
+
+
+Designation :
+
+
+
+Unique Id :
+
+
+
+Login Time :
+
+
+
+Logout Time :
+
+
+
+Duration :
+
+
+
+
+ 
+
+" transform="translate(1285 323)" font-size="14" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Name : </tspan><tspan x="0" y="14"></tspan><tspan x="0" y="28"></tspan><tspan x="0" y="42"></tspan><tspan x="0" y="56">Mail Id :</tspan><tspan x="0" y="70"></tspan><tspan x="0" y="84"></tspan><tspan x="0" y="98"></tspan><tspan x="0" y="112">Phone Number : </tspan><tspan x="0" y="126"></tspan><tspan x="0" y="140"></tspan><tspan x="0" y="154"></tspan><tspan x="0" y="168">Gender :</tspan><tspan x="0" y="182"></tspan><tspan x="0" y="196"></tspan><tspan x="0" y="210"></tspan><tspan x="0" y="224">Designation :</tspan><tspan x="0" y="238"></tspan><tspan x="0" y="252"></tspan><tspan x="0" y="266"></tspan><tspan x="0" y="280">Unique Id :</tspan><tspan x="0" y="294"></tspan><tspan x="0" y="308"></tspan><tspan x="0" y="322"></tspan><tspan x="0" y="336">Login Time :</tspan><tspan x="0" y="350"></tspan><tspan x="0" y="364"></tspan><tspan x="0" y="378"></tspan><tspan x="0" y="392">Logout Time :</tspan><tspan x="0" y="406"></tspan><tspan x="0" y="420"></tspan><tspan x="0" y="434"></tspan><tspan x="0" y="448">Duration :</tspan><tspan x="0" y="462"></tspan><tspan x="0" y="476"></tspan><tspan x="0" y="490"></tspan><tspan x="0" y="504"></tspan><tspan x="0" y="518"> </tspan><tspan x="0" y="532"></tspan><tspan x="0" y="546"></tspan></text>
+  <line id="Line_9" data-name="Line 9" y1="2" x2="489.257" transform="translate(1285 348.82)" fill="none" stroke="#707070" stroke-width="1"/>
+  <path id="Path_18" data-name="Path 18" d="M0,1,489.257,0" transform="translate(1285 407.57)" fill="none" stroke="#707070" stroke-width="1"/>
+  <path id="Path_19" data-name="Path 19" d="M0,1,489.257,0" transform="translate(1285 461.66)" fill="none" stroke="#707070" stroke-width="1"/>
+  <path id="Path_21" data-name="Path 21" d="M0,1,489.257,0" transform="translate(1285 576.46)" fill="none" stroke="#707070" stroke-width="1"/>
+  <path id="Path_22" data-name="Path 22" d="M0,1,489.257,0" transform="translate(1285 628.46)" fill="none" stroke="#707070" stroke-width="1"/>
+  <path id="Path_23" data-name="Path 23" d="M0,1,489.257,0" transform="translate(1285 628.46)" fill="none" stroke="#707070" stroke-width="1"/>
+  <path id="Path_24" data-name="Path 24" d="M0,1,489.257,0" transform="translate(1285 690.46)" fill="none" stroke="#707070" stroke-width="1"/>
+  <path id="Path_25" data-name="Path 25" d="M0,1,489.257,0" transform="translate(1285 746.46)" fill="none" stroke="#707070" stroke-width="1"/>
+  <path id="Path_26" data-name="Path 26" d="M0,1,489.257,0" transform="translate(1285 797.46)" fill="none" stroke="#707070" stroke-width="1"/>
+  <path id="Path_20" data-name="Path 20" d="M0,1,489.257,0" transform="translate(1285 521.46)" fill="none" stroke="#707070" stroke-width="1"/>
+  <text id="Confirmation_Mail_Sent" data-name="Confirmation Mail Sent" transform="translate(1577 853.005)" font-size="16" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="-76.438" y="0">Confirmation Mail Sent</tspan></text>
+  <g id="Group_2" data-name="Group 2" transform="translate(146 139.003)">
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="16" height="6" rx="2" transform="translate(1311.215 707.006) rotate(47)" fill="#00ac00"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="35" height="6" rx="2" transform="matrix(0.755, -0.656, 0.656, 0.755, 1313.9, 718.109)" fill="#00ac00"/>
+  </g>
+  <g id="Rectangle_16" data-name="Rectangle 16" transform="translate(0 950)" fill="#5d5d5d" stroke="#707070" stroke-width="1">
+    <path d="M130,0H1790a130,130,0,0,1,130,130v0a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A130,130,0,0,1,130,0Z" stroke="none"/>
+    <path d="M129,.5H1791A128.5,128.5,0,0,1,1919.5,129v0a.5.5,0,0,1-.5.5H1a.5.5,0,0,1-.5-.5v0A128.5,128.5,0,0,1,129,.5Z" fill="none"/>
+  </g>
+  <use id="icons8-male-user-26" transform="translate(1574 83)" xlink:href="#image"/>
+  <image id="icons8-gmail-login-48" width="48" height="48" transform="translate(1657 821)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAF4UlEQVRoge2Ya2wc1RXHf3d2Z3Z29v2yvYm9iZs6wXkDlRJapEAqEGqJGhqJVqoSXLdUShNAvFpSxFNFqVQiEAjUFoRSQlEUJQWaD0FUSj+gCEzBkJASwC22sMHvXe+u1+v17s70w9ZJNjPr4BeGav8f75l7zv8/55x77gxUUUUVVSwkxHw4bXw6bVitd/7SM+fxpLl2+GWjKmChURWw0PjaC5j1sdb4dGofiDtmtNkw9nXu8t41m/izzkDnTs9dYByY9kaDQ52Dnl/NNr5lBvp3t25zftp1QBrLOMdWrKavZRdFj7eik4Ih+O1JP6fiyhcKuso/wf3rR5Aly3kHgC2dom7/U2gfnUbX3NmxJU276578w3MXFdB/S8sPXWfOHME457zg89Pbeivj37ykYsBsQXBve5CuUfuU5BtcBR65PI7bXpm8+u8PiT73BPbkyHlMBZnm5m21T+7/65QC4luvySjppHbhuiFJDG+5kcQ1W0BYt048Z+OetwMM5WyW9pCjyN5vJQg7itbMDYPA348SOnoIoesm84THPxZ8+TXXlAI+uGy94VclvE7rN5lZfSn9O3ZSdLkt7d0ZO/e+E2S0UO7aaTd45LI4S90Fy31SdozaF/6E+723LO2j40USWZ3m9nfLHJuauFg0GM4UGUjl0XVzml2n3yW2dw/qJx9bBmpwFbhnTXl924XBr1ePVCSvfvoJsb17LMnrBgyk8wyOFigUzVkxCaj1yEiSIDOh89lInvG8WYQ9MUz9Yw8TeO1vnN8rk1gZmODWlSkkUUrxruY0a4MTluR9J45T/+iDyMODJtt4XufzkQkyOR0hIOKRzVwuXNAcEotkmcFUnlzBoC85gWjZQezYYUTxXO0KXSf8ykHUzo/p374TXSsrTb5TM058vNQLm+qypsDSeJbavzyDu/1Nk82QJD7f/H3yBw9jAA67IOKVkSVz71nOAVkSRP0KAa2kr2PdRk623k4+XGt61n2qvVRSnf8x2bbEMmyJZUzrju4uYr/7jSX5fCDM+z+9jTMbNmMI8DptRP2KJfmKAqCUer9mo86nYLfZGKpZzInW20lcutEsOD5E/eMP4//Hq5XcnYW37XXq9z2EPNhvsiXXXM6bP7uTgboYdptE1KsQctmnvC5MfWgDqiyIRkLEkykywDvf+xFLl61g2dGDiFzunOBCnsjh59E6PqRv+y/QneUnscjlqH3xWTxvnzDF0BWF7mtvoGNd6eVoqoOQ34cqX/ymc1EBAJIkCAd8OB0OhpMpulasJ17bwNpXXkDt6Sp71nXyLWK93fT+/DZyi2MAKP2fEX3mCZTebpPvXHQxp7feRCIYASEIet14XKYxNDsBZ8lpKooiM5RIkvKHeGP7bla9foyaE8fLTiN5oJf63z/A4I9bAIgc3I+Uz5U7E4KBK7/Lv668jqJkQ7bbiAT8yPK0KE1PAIBstxENB4inRklnxji16Xrqlq3ikpeex546N/qlfI7aA3+09FF0e+n4wU/oWbocKL2YkM+LqDDhp8LMbqNCEPR5qAn6kSRBX30jbTffTbp57UW3Zpqaabv5bnqWLkeSJMIBH2G/b0bkYQYZOB9O1cGimjDDiSRZoO2GFpqWtRE7dgRRLJ+6k2f7RxuuQkdCVRRCAR922+xu9LMSAGCTJGpCAdKZMRLJNB3rNhJftIRVL/0Z5X9H5UQozAdbdzBU1wCAz+PG79YqXgqng1kLmITHpaHIpQYfjkR5o+UO1hx/GYD3N28lr5TmSTjgw6GYrwQzxZwJAHAoMosiIYaTaTJA+3U3nrVpqkoo4EESc/sZPqcCAIQkCAe8qA6ZeDIFQNDnxa055zoUMA8CJuHWnGdLRbbPW5j5EwDzS3wSX/v/Qv9/AgyHWvl3wQJDV50mbiYB4/VL+r4cOtNHrqGx58I1s4DG5a26U/vKZaGouYzskm9su3DdJKBhz32vJjdtviLb1NzzVSgnw6Ea2aaV3clvX70htuf+fy40nyqqqKKKcvwXRQPQgU3Ih0YAAAAASUVORK5CYII="/>
+  <use id="icons8-login-24" transform="translate(1130 82)" xlink:href="#image-2"/>
+  <rect id="icons8-logout-rounded-up-30" width="30" height="30" rx="15" transform="translate(1312 78)" fill="url(#pattern)"/>
+  <text id="Logout" transform="translate(1366 102)" fill="#f9f9f9" font-size="30" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Logout</tspan></text>
+  <text id="Login_Details" data-name="Login Details" transform="translate(1627 105)" fill="#f9f9f9" font-size="30" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Login Details</tspan></text>
+  <line id="Line_4" data-name="Line 4" x2="104" transform="translate(1359.5 116.5)" fill="none" stroke="blue" stroke-width="1"/>
+  <line id="Line_5" data-name="Line 5" x2="183" transform="translate(1623.5 116.5)" fill="none" stroke="blue" stroke-width="1"/>
+  <text id="Login" transform="translate(1174 103)" fill="#f9f9f9" font-size="30" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Login</tspan></text>
+  <line id="Line_28" data-name="Line 28" x2="85" transform="translate(1167.5 114.5)" fill="none" stroke="blue" stroke-width="1"/>
+  <use id="icons8-male-user-26-2" data-name="icons8-male-user-26" transform="translate(1574 83)" xlink:href="#image"/>
+  <use id="icons8-login-24-2" data-name="icons8-login-24" transform="translate(1130 82)" xlink:href="#image-2"/>
+  <rect id="icons8-logout-rounded-up-30-2" data-name="icons8-logout-rounded-up-30" width="30" height="30" rx="15" transform="translate(1312 78)" fill="url(#pattern)"/>
+  <image id="icons8-twitter-48" width="48" height="48" transform="translate(1622 991)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAE20lEQVRoge3YW2yTdRgG8Odta8GBzh3KoIOd7BzxiGICISCi3GDigQQmEYMYgk4JckEGKGAaTTSiaAwCTsF5gSEuiiEGvSIalwWIohciCE4YbMDKtnbrTh3t9z5ebMWNfB/raRsXfe6+Nf+3v6f/r/2WP5BOOumkk04SkbF408LdVx5UkRVULiRlGkAniYtUHlEba3xr8g5BhGZrsz6+VBBY574QvbYsULa/290XyvA3vCihVMFLqvyZYeVuQJeREBIACBJg/wVIgsRREa5qfm3Kyeja7O3NswXGJqr86690rx+2wN1fdX1BSuYpZ0Y5ysVIFj9tR4ubDjks4PR+sCV+4FraCW4leS+IRSQLSPjtevWelg3FzTcs4PmB45z+nlaAEwF8OSl/wuqfF0gkUXxR9bnxRui2WoAPx4aH2WsRIZa0VeYfHDzbZvaG4/w99w/gQXJlc2P3gZlVzEi0QKR34tok8d0gl9t49VjWtguvZL3X9DpIsSxAgXvwYIBPdo0P1pXtDZbFrffSIYINSeABsJHA9jAclwFZB/btin7JTQuIoZ3/L44Okhm083hpdXsFvDRdZ5Z8V+s8ErlJ4EFiOsmpAJoiEXkqsOnOjuh8U0jYbjQMxV8bNIHEbk9Bx6/F1f55sRQQG+9LEj/wd/7uIGd1vjH1zOD5pgXO/JPZAEiD+SCA5ENiyC/FewK1hZ8FFqOGdqsCpM2VPB5nx4nzkdaNBZeun29+K3hFCe658ScHgJwr4IHCQNvloqq2qsJPrzxRsKs9a/AoobYmiQfJdl/l5G4zquVzwLOv7XZbxPEHiRJTvEUxgCRxhorTAjYaQB7IJYnjAYJ1wY0Fc82cDqsC9c/nBD3VHctBHgaQESMe7H/ClkFYpkR0QeL4/teCVk7TW6i0uuO5u6qDNYDhAvACSV+M+GR+Kq3wAHntf5/rY7EDbFFyKWBbGscnPzJ4EArWWxUw3QGbho8CCN8MeBIQ4nhcBU6vcnWS+t3NgCcZ7go7j8VVAADE4Fsk+sYYDwhq4XX3xF2g/qWcvwCuH1M8ACq+tTLesAAAnFudvZPK9QAiY4In+2yRyDcJFwCA8xU5H0Iwn2TdKOMBYH+X13MlqQKFVS1TDDXuEOhGAl4q/KOBJ6E2MbYP57N8Ekdjh71HaXytlIkkABkVPATY17XZc2I437A7cPbl7A6lvDNat80APkgxtgxni6kAAFzMzdkG8NBo4AFAicreLZ7GlBVAuRiRHn1Wge9HGg/yYGhr0ecxuWIuAMBXObm7eY3raSVXkWgYCTzJU71qrLA61DJLYidzNbS7mi7PgU3mULkMwIwU4M9D5dGQt7ghHkrMOzAk5WKEpe9PKksBPJAavP2xePFAAjvg/uBSbtiBCirWApiUAvwRux2LuzeX+OK1xFwg7yNfCYQLCH2clGdI3joUkhBeobqjl7ZN8BYnfP46tAApU3e2LIoAFSBzQbpITCajp3Sp+cIScgLUV0NvltQmCjcvMJD8T5pyIoZjM4DVKcVD6qn6dkiL98ErmizeskA0ee83T1Anl0CxkuR8AJIAPqDKHwnZG9pS+FM8P5FJFxiczHfPZ9lucc4W6iwRzlQin2Q2BDlUjCfZSSIA0KeUk4D+rWBtr6fot1Qcz6eTTjrppDMi+Q8fgF/hmeYFBwAAAABJRU5ErkJggg=="/>
+  <image id="icons8-instagram-48" width="48" height="48" transform="translate(1506 991)" xlink:href="data:image/png;base64,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"/>
+  <image id="icons8-facebook-24" width="36" height="36" transform="translate(1570 997)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABjElEQVRIia3VP2tVQRAF8F9uooKdjYp5PjVqo4WFWIp9gibiF1AhZaJfR0WxsREtBDsbC8sIliZVTAT/Cz5FY0iIxb0P1vuy984zHhhYdmbOmdlddkY0o4tpTOEoOtX+WyzjKZ5gtYVnAOO4hQ1stdgmHlYFhDCD7wHiuvVwqY38RlXRsORpN/NNlQ9D/g2/MiIDnXSCx/IR17Avyd2DF7W4Hg6lAncD5D9xOtP9823i7/SdXbHXcrtGugtncBYvt4nfQGdM+c5HM5WleJas9+IVTjbEj2K6wGSAHN4l6wst5H1MFpgICvxO1vuDOccLtdsOYiQYNw4/5C/2fJBoKZPfK/AhWnYGu3Es43tfYHGHAicwlvEtwU35I3qNhcpOJYkXk/3Fhvw5OIL1hqC+nUsErgbi13G4wBs8GOJIorgvGURdfP2PHXxRTb+iSljBbOXcKbZwXTlWBzArPxMiHWxWHI24gs//IPAJl9sbLHEQ97AWEFhTzpMDUfK60Dwe+3vYzOCRcoY3fnx/AEQ86Cipa+OnAAAAAElFTkSuQmCC"/>
+  <text id="Get_in_Touch" data-name="Get in Touch" transform="translate(1325 1026)" fill="#fff" font-size="33" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Get in Touch</tspan></text>
+  <g id="Group_7" data-name="Group 7">
+    <g id="Group_6" data-name="Group 6">
+      <rect id="Rectangle_19" data-name="Rectangle 19" width="30" height="4" transform="translate(910 360)" fill="#707070"/>
+      <rect id="Rectangle_20" data-name="Rectangle 20" width="8" height="4" transform="translate(910 367)" fill="#707070"/>
+      <rect id="Rectangle_22" data-name="Rectangle 22" width="8" height="4" transform="translate(932 367)" fill="#707070"/>
+      <rect id="Rectangle_23" data-name="Rectangle 23" width="8" height="4" transform="translate(921 367)" fill="#707070"/>
+      <rect id="Rectangle_21" data-name="Rectangle 21" width="30" height="4" transform="translate(910 374)" fill="#707070"/>
+    </g>
+  </g>
+</svg>

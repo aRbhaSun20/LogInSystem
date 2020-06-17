@@ -1,0 +1,189 @@
+const MongoClient = require("mongodb").MongoClient;
+const assert = require("assert");
+
+// Connection URL
+const url = "mongodb://localhost:27017";
+
+// Database Name
+const dbName = "myproject";
+
+// Use connect method to connect to the server
+MongoClient.connect(url, function (err, client) {
+	assert.equal(null, err);
+	console.log("Connected successfully to server"); //db created
+
+	const db = client.db(dbName);
+});
+
+//collection created
+dbo.createCollection("customers", function (err, res) {
+	if (err) throw err;
+	console.log("Collection created!");
+	db.close();
+});
+
+//insert one
+db.collection("demotodo").insertOne(myobj, (err, res) => {
+	if (err) {
+		throw err;
+	}
+	console.log("inserted");
+	client.close();
+});
+
+//insert many
+db.collection("demotodo").insertMany(myobj, (err, res) => {
+	if (err) {
+		throw err;
+	}
+	console.log("inserted" + res.insertedCount);
+	client.close();
+});
+
+//first occurence in the collections
+db.collection("demotodo").findOne({}, (err, res) => {
+	if (err) {
+		throw err;
+	}
+	console.log(res.name);
+	client.close();
+});
+
+//find All occurences in the collections
+db.collection("demotodo")
+	.find({})
+	.toArray((err, res) => {
+		if (err) {
+			throw err;
+		}
+		console.log(res);
+		client.close();
+	});
+
+//search a particular occurence in the collections
+var query = { address: "Park Lane 38" };
+db.collection("demotodo")
+	.find(query)
+	.toArray((err, res) => {
+		if (err) {
+			throw err;
+		}
+		console.log(res);
+		client.close();
+	});
+
+//search a particular occurence in the collections starting with S
+var query = { address: /^S/ };
+db.collection("demotodo")
+	.find(query)
+	.toArray((err, res) => {
+		if (err) {
+			throw err;
+		}
+		console.log(res);
+		client.close();
+	});
+
+//ascending order sort
+var mysort = { name: 1 };
+db.collection("demotodo")
+	.find()
+	.sort(mysort)
+	.toArray((err, res) => {
+		if (err) {
+			throw err;
+		}
+		console.log(res);
+		client.close();
+	});
+
+//descending order sort
+var mysort = { name: 1 };
+db.collection("demotodo")
+	.find()
+	.sort(mysort)
+	.toArray((err, res) => {
+		if (err) {
+			throw err;
+		}
+		console.log(res);
+		client.close();
+	});
+
+// delte single occurence
+var myquery = { address: "Highway 71" };
+db.collection("demotodo").deleteOne(myquery, (err, res) => {
+	if (err) {
+		throw err;
+	}
+	console.log("deleted");
+	client.close();
+});
+
+//drop collections
+db.collection("documents").drop((err, res) => {
+	if (err) {
+		throw err;
+	}
+	if (res) {
+		console.log("collection deleted");
+	}
+
+	client.close();
+});
+
+// (or)
+
+db.dropCollection("document", (err, res) => {
+	if (err) {
+		throw err;
+	}
+	if (res) {
+		console.log("collection deleted");
+	}
+
+	client.close();
+});
+
+//update single occurance
+var myquery = { address: "Green Grass 1" };
+var newvalues = { $set: { name: "hyu", address: "lop" } };
+db.collection("demotodo").updateOne(myquery, newvalues, (err, res) => {
+	if (err) {
+		throw err;
+	}
+	if (res) {
+		console.log("collection updated");
+	}
+
+	client.close();
+});
+
+//update multiple occurances
+var myquery = { address: /^S/ };
+var newvalues = { $set: { name: "Minnie" } };
+db.collection("demotodo").updateMany(myquery, newvalues, (err, res) => {
+	if (err) {
+		throw err;
+	}
+	if (res) {
+		console.log("collection updated");
+	}
+
+	client.close();
+});
+
+// limit the occurances
+db.collection("demotodo")
+	.find()
+	.limit(7)
+	.toArray((err, res) => {
+		if (err) {
+			throw err;
+		}
+		if (res) {
+			console.log(res);
+		}
+
+		client.close();
+	});

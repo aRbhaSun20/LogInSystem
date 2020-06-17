@@ -1,0 +1,74 @@
+.App {
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 12vh;
+	background-image: repeating-linear-gradient(
+		rgb(105, 21, 202),
+		rgb(247, 10, 227),
+		rgb(230, 36, 213)
+	);
+
+	color: white;
+}
+
+.navBar {
+	width: 100%;
+	display: flex;
+	float: none;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	text-align: center;
+	flex-basis: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	-ms-flex-preferred-size: 50%;
+	font-family: "Courgette", cursive;
+	font-size: 20pt;
+}
+.Nav-link {
+	opacity: 1;
+	margin-top: 20px;
+	margin-right: -20%;
+}
+
+.Link {
+	/* opacity: 0; */
+	padding-top: 0 20%;
+	margin-right: 70mm;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	justify-content: center;
+	position: sticky;
+}
+.Logo {
+	color: white;
+	float: center;
+	align-items: center;
+	margin-bottom: 20px;
+	padding: 15px 25px 0px;
+	display: flex;
+	max-width: 40mm;
+	transform: rotateZ(-30deg);
+	cursor: pointer;
+}
+.Link:hover {
+	color: rgb(0, 0, 0);
+	opacity: 0.6;
+}
+
+svg.burger {
+	background-color: white;
+	display: flex;
+	cursor: pointer;
+	justify-content: left;
+	align-items: center;
+	margin-right: 10px;
+}
